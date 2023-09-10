@@ -1,5 +1,7 @@
 # hello
 
+This README documents the 'hello' program.
+
 ## Building
 
 ```bash
