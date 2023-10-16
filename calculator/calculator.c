@@ -3,6 +3,8 @@
 
 int main (int argc, char* argv[]) {
 
+
+//This declares the variables for the user input and the two numbers to perform a calculation on.	
 int choice;
 int x, y;
 int c;
@@ -34,6 +36,9 @@ for(;;) {
 
 while((c = getchar()) != '\n') { }; // Clear the buffer
 
+
+//Can create a more modular approach by fitting each operation into a function
+// but for four simple operations a switch statement suffices.
 switch (choice) {
   case 1: 
     printf("Total: %d \n", x + y);
